@@ -112,7 +112,8 @@ if(req.body.token){
         res.json({
             ok:"data",  
             dat:dat  ,
-            user:nam                 
+            user:nam  ,
+            userid:  decoded.data           
             
 
         })
